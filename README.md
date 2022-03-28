@@ -22,7 +22,7 @@
   <img align="center" alt="Dani-Rasp" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg">
   <img align="center" alt="Dani-Debian" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg">
   <img align="center" alt="Dani-Shell" height="35" width="45" src="./assets/bash-original.svg">
-  <img align="right" alt="Rafa-pic" height="150" style="border-radius:50px;" src="https://media.discordapp.net/attachments/867424753047044141/953421003374088212/avatartest.jpg">
+  <img align="right" alt="Dani-pic" height="150" style="border-radius:50px;" src="https://i.pinimg.com/originals/4d/e2/4c/4de24ccda2d6b6758a170f5ef059fba6.gif">
   </div>
 
 ##
