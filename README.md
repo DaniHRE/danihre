@@ -30,7 +30,5 @@
   <img align="center" alt="Dani-Linux" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg">
   <img align="center" alt="Dani-Shell" height="35" width="45" src="./assets/bash-original.svg">
   </div>
-
-##
  </div>
   
