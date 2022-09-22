@@ -11,7 +11,7 @@
 <img src="https://i.pinimg.com/originals/1c/4f/ac/1c4facad627b098885aec6266b8c6c0e.gif">
 <div>
   <a href="https://github.com/danihre">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=DaniHRE&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=danihre&include_all_commits=true&count_private=true&show_icons=true&theme=dracula"/>
   <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=danihre&layout=compact&langs_count=10&theme=dracula&hide=java"/>
   </div>
 
