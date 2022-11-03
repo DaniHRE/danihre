@@ -12,7 +12,7 @@
 <div>
   <a href="https://github.com/danihre">
   <img height="160em" src="https://github-readme-stats.vercel.app/api?username=danihre&include_all_commits&count_private=true&show_icons=true&theme=dracula"/>
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=danihre&layout=compact&langs_count=10&theme=dracula&hide=java"/>
+  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=danihre&layout=compact&langs_count=10&theme=dracula&hide=java&exclude_repo=js-nds,jsdoom"/>
   </div>
 
 <div>
