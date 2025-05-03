@@ -1,0 +1,42 @@
+name: Update readme
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          sudo apt update && sudo apt install -y ffmpeg
+          python -m pip install --upgrade pip
+          pip install git+https://github.com/x0rzavi/github-readme-terminal.git@main
+
+      - name: Run script
+        run: python main.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GB_TOKEN }}
+          IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
+          GIFOS_GENERAL_FPS: 13
+          GIFOS_GENERAL_LOOP_COUNT: 4
+          GIFOS_GENERAL_COLOR_SCHEME: "everblush"
+
+      - name: Update readme
+        run: |
+          git add README.md output.gif
+          git -c "user.name=Daniel Henrique" -c "user.email=danihre@users.noreply.github.com" commit -m "Automatically updated on $(TZ='America/Sao_Paulo' date)"
+          git push
