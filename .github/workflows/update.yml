@@ -38,5 +38,5 @@ jobs:
       - name: Update readme
         run: |
           git add README.md output.gif
-          git -c "user.name=Daniel Henrique" -c "user.email=danihre@users.noreply.github.com" commit -m "Automatically updated on $(TZ='America/Sao_Paulo' date)"
+          git -c "user.name=GitHub Actions [BOT]" -c "user.email=github-actions[bot]@users.noreply.github.com" commit -m "Automatically updated on $(TZ='America/Sao_Paulo' date)"
           git push
