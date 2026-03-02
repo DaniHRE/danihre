@@ -86,8 +86,8 @@ def main():
     \x1b[30;101mdanihre@GitHub\x1b[0m
     --------------
     \x1b[96mOS:     \x1b[93mDebian, Windows 10, Android 13\x1b[0m
-    \x1b[96mHost:   \x1b[93mRobert Bosch LTDA. \x1b[94m\x1b[0m
-    \x1b[96mKernel: \x1b[93mDevOPS Junior \x1b[94m#DEV\x1b[0m
+    \x1b[96mHost:   \x1b[93mSICREDI \x1b[94m\x1b[0m
+    \x1b[96mKernel: \x1b[93mSRE and DevOps Junior Analyst \x1b[94m#SRE\x1b[0m
     \x1b[96mUptime: \x1b[93m{user_age.years} years, {user_age.months} months, {user_age.days} days\x1b[0m
     \x1b[96mIDE:    \x1b[93mVSCode\x1b[0m
     
