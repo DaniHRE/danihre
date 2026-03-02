@@ -15,7 +15,7 @@ def main():
     t.gen_text("", 1, count=20)
     t.toggle_show_cursor(False)
     year_now = datetime.now(ZoneInfo("America/Sao_Paulo")).strftime("%Y")
-    t.gen_text("GIF_OS Modular BIOS v1.0.11", 1)
+    t.gen_text("DINO_OS Modular BIOS v1.0.11", 1)
     t.gen_text(f"Copyright (C) {year_now}, \x1b[31mDaniHRE Softwares Inc.\x1b[0m", 2)
     t.gen_text("\x1b[94mGitHub Profile ReadMe Terminal, Rev 1011\x1b[0m", 4)
     t.gen_text("Krypton(tm) GIFCPU - 250Hz", 6)
@@ -41,7 +41,7 @@ def main():
     t.gen_text("\x1b[96m", 1, count=0, contin=True)  # buffer to be removed
     t.set_font(FONT_FILE_LOGO, 66)
     # t.toggle_show_cursor(True)
-    os_logo_text = "GIF OS"
+    os_logo_text = "DINO"
     mid_row = (t.num_rows + 1) // 2
     mid_col = (t.num_cols - len(os_logo_text) + 1) // 2
     effect_lines = gifos.effects.text_scramble_effect_lines(
@@ -55,7 +55,7 @@ def main():
     t.clear_frame()
     t.clone_frame(5)
     t.toggle_show_cursor(False)
-    t.gen_text("\x1b[93mGIF OS v1.0.11 (tty1)\x1b[0m", 1, count=5)
+    t.gen_text("\x1b[93mDino OS v1.0.11 (tty1)\x1b[0m", 1, count=5)
     t.gen_text("login: ", 3, count=5)
     t.toggle_show_cursor(True)
     t.gen_typing_text("x0rzavi", 3, contin=True)
