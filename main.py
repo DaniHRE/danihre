@@ -162,12 +162,6 @@ def main():
     <img alt="GIFOS" src="output.gif">
 </picture>
 
-<sub><i>Generated automatically using [x0rzavi/github-readme-terminal](https://github.com/x0rzavi/github-readme-terminal) on {time_now}</i></sub>
-
-<!-- <details>
-<summary>More details</summary>
-
-</details> -->
 </div>
 
 <!-- Image deletion URL: NONE -->"""
