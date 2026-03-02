@@ -79,7 +79,6 @@ def main():
 
     ignore_repos = ["archiso-zfs", "archiso-zfs-archive"]
     git_user_details = gifos.utils.fetch_github_stats("danihre", ignore_repos)
-    user_age = gifos.utils.calc_age(26, 7, 2002)
     t.clear_frame()
     top_languages = [lang[0] for lang in git_user_details.languages_sorted]
     user_details_lines = f"""
@@ -88,7 +87,6 @@ def main():
     \x1b[96mOS:     \x1b[93mDebian, Windows 10, Android 13\x1b[0m
     \x1b[96mHost:   \x1b[93mSICREDI \x1b[94m\x1b[0m
     \x1b[96mKernel: \x1b[93mSRE and DevOps Junior Analyst \x1b[94m#SRE\x1b[0m
-    \x1b[96mUptime: \x1b[93m{user_age.years} years, {user_age.months} months, {user_age.days} days\x1b[0m
     \x1b[96mIDE:    \x1b[93mVSCode\x1b[0m
     
     \x1b[30;101mContact:\x1b[0m
