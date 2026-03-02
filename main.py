@@ -15,29 +15,29 @@ def main():
     t.gen_text("", 1, count=20)
     t.toggle_show_cursor(False)
     year_now = datetime.now(ZoneInfo("America/Sao_Paulo")).strftime("%Y")
-    t.gen_text("DINO_OS Modular BIOS v1.0.11", 1)
-    t.gen_text(f"Copyright (C) {year_now}, \x1b[31mDaniHRE Softwares Inc.\x1b[0m", 2)
-    t.gen_text("\x1b[94mGitHub Profile ReadMe Terminal, Rev 1011\x1b[0m", 4)
-    t.gen_text("Krypton(tm) GIFCPU - 250Hz", 6)
+    t.gen_text("\x1b[92mDINO_OS\x1b[0m \x1b[35m//\x1b[0m NEURAL BIOS v2.0.77 \x1b[90m[BREACH_READY]\x1b[0m", 1)
+    t.gen_text(f"\x1b[35mCopyright (C) {year_now}, \x1b[31mDaniHRE Corp.\x1b[35m [SECURE_BOOT: ON]\x1b[0m", 2)
+    t.gen_text("\x1b[96m[NET_SYNC] GitHub Profile ReadMe Terminal, Rev 2077\x1b[0m", 4)
+    t.gen_text("\x1b[92mNeoCPU(tm)\x1b[0m GIFCPU @ 666GHz \x1b[90m// OVERCLOCK ACTIVE\x1b[0m", 6)
     t.gen_text(
-        "Press \x1b[94mDEL\x1b[0m to enter SETUP, \x1b[94mESC\x1b[0m to cancel Memory Test",
+        "Press \x1b[94mDEL\x1b[0m to enter NEURAL SETUP, \x1b[94mESC\x1b[0m to abort Memory Scan",
         t.num_rows,
     )
     for i in range(0, 65653, 7168):  # 64K Memory
         t.delete_row(7)
         if i < 30000:
             t.gen_text(
-                f"Memory Test: {i}", 7, count=2, contin=True
+                f"\x1b[92m[SCAN]\x1b[0m Neural Mem Check: {i}", 7, count=2, contin=True
             )  # slow down upto a point
         else:
-            t.gen_text(f"Memory Test: {i}", 7, contin=True)
+            t.gen_text(f"\x1b[92m[SCAN]\x1b[0m Neural Mem Check: {i}", 7, contin=True)
     t.delete_row(7)
-    t.gen_text("Memory Test: 64KB OK", 7, count=10, contin=True)
+    t.gen_text("\x1b[92m[OK]\x1b[0m Neural Mem: 64KB VERIFIED \x1b[35m// CLEAN\x1b[0m", 7, count=10, contin=True)
     t.gen_text("", 11, count=10, contin=True)
 
     t.clear_frame()
-    t.gen_text("Initiating Boot Sequence ", 1, contin=True)
-    t.gen_typing_text(".....", 1, contin=True)
+    t.gen_text("\x1b[92m[>>]\x1b[0m \x1b[96mNEURAL LINK ESTABLISHED\x1b[0m \x1b[35m//\x1b[0m BOOTING DINO_OS", 1, contin=True)
+    t.gen_typing_text(" \x1b[92m>_>_>_>\x1b[0m", 1, contin=True)
     t.gen_text("\x1b[96m", 1, count=0, contin=True)  # buffer to be removed
     t.set_font(FONT_FILE_LOGO, 66)
     # t.toggle_show_cursor(True)
